@@ -1,0 +1,990 @@
+/*-----------UNIVERSAL PROPERTIES---------------*/
+html {
+  background-color: white;
+}
+.titlegrid {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 10px;
+  height: 100%;
+}
+
+.title {
+  position: relative;
+}
+
+.titletext {
+  color: white;
+  background: rgba(0, 0, 0, 0.6);
+  font-size: 20px;
+  font-weight: 200;
+  padding: 10px 100px;
+  border-color: orange;
+  border-style: solid;
+  border-width: thick;
+  border-radius: 1em;
+  margin: 30px auto 0;
+  text-align: center;
+}
+
+body {
+  margin: 0;
+  font-weight: 300;
+  font-family: "Crimson Text", serif;
+}
+
+.top-container {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  place-content: space-between;
+  align-items: center;
+}
+header {
+  padding-bottom: 10px;
+  background-color: #ff7722;
+}
+header::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+nav {
+  text-align: center;
+  float: left;
+  
+ 
+}
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+nav li {
+  display: inline-block;
+  margin-left: 70px;
+  padding-top: 20px;
+  position: relative;
+  
+}
+nav a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+  font-size: 25px;
+}
+nav a:hover {
+  border-radius: 15px;
+  outline-width: 4px;
+  padding: 4px;
+  outline-color: black;
+  outline-style: solid;
+}
+
+/*---------------MAIN HOME CONTENT AND TEXT/LOGO -----------------*/
+
+.mainhome {
+  text-align: center;
+  float: left;
+  text-decoration: none;
+  line-height: 1;
+  text-transform: uppercase;
+  font-size: 25px;
+  color: black;
+}
+
+.homemain a:hover {
+  color: white;
+}
+
+.homemain {
+  margin-top: 20px;
+}
+
+.subtext {
+  margin: 5px auto;
+  display: grid;
+  height: 100%;
+}
+
+.subtext td {
+  padding: 5px;
+  border: 5px #17252a solid;
+  text-align: center;
+  font-size: 20px;
+  color: black;
+  text-transform: capitalize;
+  font-weight: 800;
+}
+
+.subtext a {
+  text-decoration: none;
+  color: black;
+}
+
+.subtext a:hover {
+  color: blue;
+}
+
+.homepic img {
+  margin: 5px auto;
+  display: grid;
+  height: 100%;
+  text-align: center;
+  height: 350px;
+}
+
+/*------------------TEAM PROFILE------------------*/
+.teaminfo {
+  position: relative;
+}
+
+.teaminfogrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 40px;
+  height: 100%;
+  margin-bottom: 10px;
+}
+
+.gordoninfo {
+  color: black;
+  background: rgba(0, 0, 0, 0.1);
+  font-size: 20px;
+  font-weight: 200;
+  padding: 10px;
+  border-color: orange;
+  border-style: solid;
+  border-width: thick;
+  border-radius: 1em;
+  margin-left: 100px;
+  margin-top: 10px;
+}
+
+.rishiinfo {
+  color: black;
+  background: rgba(0, 0, 0, 0.1);
+  font-size: 20px;
+  font-weight: 200;
+  padding: 10px;
+  border-color: orange;
+  border-style: solid;
+  border-width: thick;
+  border-radius: 1em;
+  margin-right: 100px;
+  margin-top: 10px;
+}
+
+.robertinfo {
+  color: black;
+  background: rgba(0, 0, 0, 0.1);
+  font-size: 20px;
+  font-weight: 200;
+  padding: 10px;
+  border-color: orange;
+  border-style: solid;
+  border-width: thick;
+  border-radius: 1em;
+  margin-left: 100px;
+  margin-top: 10px;
+}
+
+.fribainfo {
+  color: black;
+  background: rgba(0, 0, 0, 0.1);
+  font-size: 20px;
+  font-weight: 200;
+  padding: 10px;
+  border-color: orange;
+  border-style: solid;
+  border-width: thick;
+  border-radius: 1em;
+  margin-right: 100px;
+  margin-top: 10px;
+}
+
+.markinfo {
+  color: black;
+  background: rgba(0, 0, 0, 0.1);
+  font-size: 20px;
+  font-weight: 200;
+  padding: 10px;
+  border-color: orange;
+  border-style: solid;
+  border-width: thick;
+  border-radius: 1em;
+  margin-left: 100px;
+  margin-top: 10px;
+}
+
+.anakininfo {
+  color: black;
+  background: rgba(0, 0, 0, 0.1);
+  font-size: 20px;
+  font-weight: 200;
+  padding: 10px;
+  border-color: orange;
+  border-style: solid;
+  border-width: thick;
+  border-radius: 1em;
+  margin-right: 100px;
+  margin-top: 10px;
+}
+
+.gordonresults {
+  color: black;
+  background: rgba(0, 0, 0, 0.1);
+  font-size: 20px;
+  font-weight: 200;
+  padding: 10px;
+  border-color: orange;
+  border-style: solid;
+  border-width: thick;
+  border-radius: 1em;
+  margin-left: 100px;
+  margin-top: 10px;
+}
+
+.rishiresults {
+  color: black;
+  background: rgba(0, 0, 0, 0.1);
+  font-size: 20px;
+  font-weight: 200;
+  padding: 10px;
+  border-color: orange;
+  border-style: solid;
+  border-width: thick;
+  border-radius: 1em;
+  margin-right: 100px;
+  margin-top: 10px;
+}
+
+.fribaresults {
+  color: black;
+  background: rgba(0, 0, 0, 0.1);
+  font-size: 20px;
+  font-weight: 200;
+  padding: 10px;
+  border-color: orange;
+  border-style: solid;
+  border-width: thick;
+  border-radius: 1em;
+  margin-left: 100px;
+  margin-top: 10px;
+}
+
+.anakinresults {
+  color: black;
+  background: rgba(0, 0, 0, 0.1);
+  font-size: 20px;
+  font-weight: 200;
+  padding: 10px;
+  border-color: orange;
+  border-style: solid;
+  border-width: thick;
+  border-radius: 1em;
+  margin-right: 100px;
+  margin-top: 10px;
+}
+
+.markresults {
+  color: black;
+  background: rgba(0, 0, 0, 0.1);
+  font-size: 20px;
+  font-weight: 200;
+  padding: 10px;
+  border-color: orange;
+  border-style: solid;
+  border-width: thick;
+  border-radius: 1em;
+  margin-left: 100px;
+  margin-top: 10px;
+}
+
+.robertresults {
+  color: black;
+  background: rgba(0, 0, 0, 0.1);
+  font-size: 20px;
+  font-weight: 200;
+  padding: 10px;
+  border-color: orange;
+  border-style: solid;
+  border-width: thick;
+  border-radius: 1em;
+  margin-right: 100px;
+  margin-top: 10px;
+}
+
+.testing {
+  position: relative;
+}
+
+.testinggrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 40px;
+  height: 100%;
+  margin-bottom: 10px;
+}
+
+/*----------------IDEAL JOBS ----------------*/
+.idealjobs {
+  position: relative;
+}
+
+.idealjobsgrid {
+  display: grid;
+  grid-template-columns: 1fr ;
+  grid-gap: 40px;
+  height: 100%;
+  margin-bottom: 10px;
+}
+
+.idealjobsconc {
+  color: black;
+  background: rgba(0, 0, 0, 0.1);
+  font-size: 20px;
+  font-weight: 200;
+  padding: 10px;
+  border-color: orange;
+  border-style: solid;
+  border-width: thick;
+  border-radius: 1em;
+  margin-top: 10px;
+  margin-right: 50px;
+  margin-left: 50px;
+}
+
+.idealtable {
+  color: black;
+  background: rgba(0, 0, 0, 0.1);
+  font-size: 20px;
+  font-weight: 200;
+  padding: 10px;
+  border-radius: 1em;
+  margin-top: 10px;
+  margin-right: 50px;
+  margin-left: 50px;
+  
+}
+.idealtable table {
+  margin-left: auto ;
+  margin-right: auto;
+  
+}
+
+/*------------INDUSTRY DATA------------*/
+.industrydata {
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.industrydatagrid {
+  display: grid;
+  grid-template-columns: 1fr ;
+  grid-gap: 40px;
+  height: 100%;
+  margin-bottom: 0px;
+}
+
+.datatable {
+  color: black;
+  background: rgba(0, 0, 0, 0.1);
+  font-size: 20px;
+  font-weight: 200;
+  padding: 10px;
+  border-radius: 1em;
+  margin-top: 30px;
+  margin-right: 50px;
+  margin-left: 50px;
+}
+
+.datatable table {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.skillset {
+  color: white;
+  background: rgba(0, 0, 0, 0.6);
+  font-size: 20px;
+  font-weight: 200;
+  padding: 10px 100px;
+  border-color: orange;
+  border-style: solid;
+  border-width: thick;
+  border-radius: 1em;
+  margin: 30px auto 0;
+  text-align: center;
+}
+
+.itskills {
+  color: black;
+  background: rgba(0, 0, 0, 0.1);
+  font-size: 20px;
+  font-weight: 200;
+  padding: 10px;
+  border-color: orange;
+  border-style: solid;
+  border-width: thick;
+  border-radius: 1em;
+  margin-top: 10px;
+  margin-right: 50px;
+  margin-left: 50px;
+}
+
+.generalskills {
+  color: black;
+  background: rgba(0, 0, 0, 0.1);
+  font-size: 20px;
+  font-weight: 200;
+  padding: 10px;
+  border-color: orange;
+  border-style: solid;
+  border-width: thick;
+  border-radius: 1em;
+  margin-top: 10px;
+  margin-right: 50px;
+  margin-left: 50px;
+}
+
+.itspecific {
+  color: black;
+  background: rgba(0, 0, 0, 0.1);
+  font-size: 20px;
+  font-weight: 200;
+  padding: 10px;
+  border-color: orange;
+  border-style: solid;
+  border-width: thick;
+  border-radius: 1em;
+  margin-top: 10px;
+  margin-right: 50px;
+  margin-left: 50px;
+}
+
+.demandskills {
+  color: black;
+  background: rgba(0, 0, 0, 0.1);
+  font-size: 20px;
+  font-weight: 200;
+  padding: 10px;
+  border-color: orange;
+  border-style: solid;
+  border-width: thick;
+  border-radius: 1em;
+  margin-top: 10px;
+  margin-right: 50px;
+  margin-left: 50px;
+}
+
+.threehighest {
+  color: black;
+  background: rgba(0, 0, 0, 0.1);
+  font-size: 20px;
+  font-weight: 200;
+  padding: 10px;
+  border-color: orange;
+  border-style: solid;
+  border-width: thick;
+  border-radius: 1em;
+  margin-top: 10px;
+  margin-right: 50px;
+  margin-left: 50px;
+}
+
+.threehighestgen {
+  color: black;
+  background: rgba(0, 0, 0, 0.1);
+  font-size: 20px;
+  font-weight: 200;
+  padding: 10px;
+  border-color: orange;
+  border-style: solid;
+  border-width: thick;
+  border-radius: 1em;
+  margin-top: 10px;
+  margin-right: 50px;
+  margin-left: 50px;
+}
+
+.opinion {
+  color: black;
+  background: rgba(0, 0, 0, 0.1);
+  font-size: 20px;
+  font-weight: 200;
+  padding: 10px;
+  border-color: orange;
+  border-style: solid;
+  border-width: thick;
+  border-radius: 1em;
+  margin-top: 10px;
+  margin-right: 50px;
+  margin-left: 50px;
+
+}
+
+/*---------------IT TECHNOLOGIES-------------*/
+.ittech {
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.ittechgrid {
+  display: grid;
+  grid-template-columns: 1fr ;
+  grid-gap: 40px;
+  height: 100%;
+  margin-bottom: 0px;
+}
+
+.autoveh {
+  color: white;
+  background: rgba(0, 0, 0, 0.6);
+  font-size: 20px;
+  font-weight: 200;
+  padding: 10px 100px;
+  border-color: orange;
+  border-style: solid;
+  border-width: thick;
+  border-radius: 1em;
+  margin: 30px auto 0;
+  text-align: center;
+}
+
+.autowhat {
+  color: black;
+  background: rgba(0, 0, 0, 0.1);
+  font-size: 20px;
+  font-weight: 200;
+  padding: 10px;
+  border-color: orange;
+  border-style: solid;
+  border-width: thick;
+  border-radius: 1em;
+  margin-top: 10px;
+  margin-right: 50px;
+  margin-left: 50px;
+}
+
+.autoimpact {
+  color: black;
+  background: rgba(0, 0, 0, 0.1);
+  font-size: 20px;
+  font-weight: 200;
+  padding: 10px;
+  border-color: orange;
+  border-style: solid;
+  border-width: thick;
+  border-radius: 1em;
+  margin-top: 10px;
+  margin-right: 50px;
+  margin-left: 50px;
+}
+
+.autoeffect {
+  color: black;
+  background: rgba(0, 0, 0, 0.1);
+  font-size: 20px;
+  font-weight: 200;
+  padding: 10px;
+  border-color: orange;
+  border-style: solid;
+  border-width: thick;
+  border-radius: 1em;
+  margin-top: 10px;
+  margin-right: 50px;
+  margin-left: 50px;
+}
+
+.blockchain {
+  color: white;
+  background: rgba(0, 0, 0, 0.6);
+  font-size: 20px;
+  font-weight: 200;
+  padding: 10px 100px;
+  border-color: orange;
+  border-style: solid;
+  border-width: thick;
+  border-radius: 1em;
+  margin: 30px auto 0;
+  text-align: center;
+}
+
+.blockwhat {
+  color: black;
+  background: rgba(0, 0, 0, 0.1);
+  font-size: 20px;
+  font-weight: 200;
+  padding: 10px;
+  border-color: orange;
+  border-style: solid;
+  border-width: thick;
+  border-radius: 1em;
+  margin-top: 10px;
+  margin-right: 50px;
+  margin-left: 50px;
+}
+
+.blockimpact {
+  color: black;
+  background: rgba(0, 0, 0, 0.1);
+  font-size: 20px;
+  font-weight: 200;
+  padding: 10px;
+  border-color: orange;
+  border-style: solid;
+  border-width: thick;
+  border-radius: 1em;
+  margin-top: 10px;
+  margin-right: 50px;
+  margin-left: 50px;
+}
+
+.blockaffect {
+  color: black;
+  background: rgba(0, 0, 0, 0.1);
+  font-size: 20px;
+  font-weight: 200;
+  padding: 10px;
+  border-color: orange;
+  border-style: solid;
+  border-width: thick;
+  border-radius: 1em;
+  margin-top: 10px;
+  margin-right: 50px;
+  margin-left: 50px;
+}
+
+.Cloud {
+  color: white;
+  background: rgba(0, 0, 0, 0.6);
+  font-size: 20px;
+  font-weight: 200;
+  padding: 10px 100px;
+  border-color: orange;
+  border-style: solid;
+  border-width: thick;
+  border-radius: 1em;
+  margin: 30px auto 0;
+  text-align: center;
+}
+
+.cloudwhat {
+  color: black;
+  background: rgba(0, 0, 0, 0.1);
+  font-size: 20px;
+  font-weight: 200;
+  padding: 10px;
+  border-color: orange;
+  border-style: solid;
+  border-width: thick;
+  border-radius: 1em;
+  margin-top: 10px;
+  margin-right: 50px;
+  margin-left: 50px;
+}
+
+.cloudimpact {
+  color: black;
+  background: rgba(0, 0, 0, 0.1);
+  font-size: 20px;
+  font-weight: 200;
+  padding: 10px;
+  border-color: orange;
+  border-style: solid;
+  border-width: thick;
+  border-radius: 1em;
+  margin-top: 10px;
+  margin-right: 50px;
+  margin-left: 50px;
+}
+
+.cloudaffect {
+  color: black;
+  background: rgba(0, 0, 0, 0.1);
+  font-size: 20px;
+  font-weight: 200;
+  padding: 10px;
+  border-color: orange;
+  border-style: solid;
+  border-width: thick;
+  border-radius: 1em;
+  margin-top: 10px;
+  margin-right: 50px;
+  margin-left: 50px;
+}
+
+.cyber {
+  color: white;
+  background: rgba(0, 0, 0, 0.6);
+  font-size: 20px;
+  font-weight: 200;
+  padding: 10px 100px;
+  border-color: orange;
+  border-style: solid;
+  border-width: thick;
+  border-radius: 1em;
+  margin: 30px auto 0;
+  text-align: center;
+}
+
+.cyberwhat {
+  color: black;
+  background: rgba(0, 0, 0, 0.1);
+  font-size: 20px;
+  font-weight: 200;
+  padding: 10px;
+  border-color: orange;
+  border-style: solid;
+  border-width: thick;
+  border-radius: 1em;
+  margin-top: 10px;
+  margin-right: 50px;
+  margin-left: 50px;
+}
+
+.cyberimpact {
+  color: black;
+  background: rgba(0, 0, 0, 0.1);
+  font-size: 20px;
+  font-weight: 200;
+  padding: 10px;
+  border-color: orange;
+  border-style: solid;
+  border-width: thick;
+  border-radius: 1em;
+  margin-top: 10px;
+  margin-right: 50px;
+  margin-left: 50px;
+}
+
+.cyberaffect {
+  color: black;
+  background: rgba(0, 0, 0, 0.1);
+  font-size: 20px;
+  font-weight: 200;
+  padding: 10px;
+  border-color: orange;
+  border-style: solid;
+  border-width: thick;
+  border-radius: 1em;
+  margin-top: 10px;
+  margin-right: 50px;
+  margin-left: 50px;
+}
+
+/*----------PROJECT IDEAS-------------*/
+
+.project {
+  position: relative;
+}
+
+.projectgrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 40px;
+  height: 100%;
+  margin-bottom: 10px;
+}
+
+.overview {
+  color: black;
+  background: rgba(0, 0, 0, 0.1);
+  font-size: 20px;
+  font-weight: 200;
+  padding: 10px;
+  border-color: orange;
+  border-style: solid;
+  border-width: thick;
+  border-radius: 1em;
+  margin-left: 100px;
+  margin-top: 10px;
+}
+
+.motivation {
+  color: black;
+  background: rgba(0, 0, 0, 0.1);
+  font-size: 20px;
+  font-weight: 200;
+  padding: 10px;
+  border-color: orange;
+  border-style: solid;
+  border-width: thick;
+  border-radius: 1em;
+  margin-right: 100px;
+  margin-top: 10px;
+}
+
+.description {
+  color: black;
+  background: rgba(0, 0, 0, 0.1);
+  font-size: 20px;
+  font-weight: 200;
+  padding: 10px;
+  border-color: orange;
+  border-style: solid;
+  border-width: thick;
+  border-radius: 1em;
+  margin-left: 100px;
+  margin-top: 10px;
+}
+
+.tools {
+  color: black;
+  background: rgba(0, 0, 0, 0.1);
+  font-size: 20px;
+  font-weight: 200;
+  padding: 10px;
+  border-color: orange;
+  border-style: solid;
+  border-width: thick;
+  border-radius: 1em;
+  margin-right: 100px;
+  margin-top: 10px;
+}
+
+.skills {
+  color: black;
+  background: rgba(0, 0, 0, 0.1);
+  font-size: 20px;
+  font-weight: 200;
+  padding: 10px;
+  border-color: orange;
+  border-style: solid;
+  border-width: thick;
+  border-radius: 1em;
+  margin-left: 100px;
+  margin-top: 10px;
+}
+
+.outcome {
+  color: black;
+  background: rgba(0, 0, 0, 0.1);
+  font-size: 20px;
+  font-weight: 200;
+  padding: 10px;
+  border-color: orange;
+  border-style: solid;
+  border-width: thick;
+  border-radius: 1em;
+  margin-right: 100px;
+  margin-top: 10px;
+}
+
+/*----------REFLECTION----------*/
+
+.reflection {
+  position: relative;
+}
+
+.reflectiongrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 40px;
+  height: 100%;
+  margin-bottom: 10px;
+}
+
+.gordonref {
+  color: black;
+  background: rgba(0, 0, 0, 0.1);
+  font-size: 20px;
+  font-weight: 200;
+  padding: 10px;
+  border-color: orange;
+  border-style: solid;
+  border-width: thick;
+  border-radius: 1em;
+  margin-left: 100px;
+  margin-top: 10px;
+}
+
+.fribaref {
+  color: black;
+  background: rgba(0, 0, 0, 0.1);
+  font-size: 20px;
+  font-weight: 200;
+  padding: 10px;
+  border-color: orange;
+  border-style: solid;
+  border-width: thick;
+  border-radius: 1em;
+  margin-right: 100px;
+  margin-top: 10px;
+}
+
+.rishiref {
+  color: black;
+  background: rgba(0, 0, 0, 0.1);
+  font-size: 20px;
+  font-weight: 200;
+  padding: 10px;
+  border-color: orange;
+  border-style: solid;
+  border-width: thick;
+  border-radius: 1em;
+  margin-left: 100px;
+  margin-top: 10px;
+}
+
+.markref {
+  color: black;
+  background: rgba(0, 0, 0, 0.1);
+  font-size: 20px;
+  font-weight: 200;
+  padding: 10px;
+  border-color: orange;
+  border-style: solid;
+  border-width: thick;
+  border-radius: 1em;
+  margin-right: 100px;
+  margin-top: 10px;
+}
+
+.anakinref {
+  color: black;
+  background: rgba(0, 0, 0, 0.1);
+  font-size: 20px;
+  font-weight: 200;
+  padding: 10px;
+  border-color: orange;
+  border-style: solid;
+  border-width: thick;
+  border-radius: 1em;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 10px;
+}
+
+.reflectiongroup {
+  position: relative;
+}
+
+.reflectiongroupgrid {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 40px;
+  height: 100%;
+  margin-bottom: 10px;
+}
+
+.groupref {
+  color: black;
+  background: rgba(0, 0, 0, 0.1);
+  font-size: 20px;
+  font-weight: 200;
+  padding: 10px;
+  border-color: orange;
+  border-style: solid;
+  border-width: thick;
+  border-radius: 1em;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+
+
+
